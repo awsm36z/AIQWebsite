@@ -1,70 +1,107 @@
-# Getting Started with Create React App
+# AIQ Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to the AIQ Website project! This repository contains the code for the official website of AIQ, a company focused on building innovative large language model (LLM) solutions.
 
-## Available Scripts
+## Project Overview
+The AIQ website serves as a platform to showcase our projects, share educational content, and provide information about our company. It features a home page, blog, about/contact page, videos, and a projects page.
 
-In the project directory, you can run:
+## Features
+Home Page: Overview of AIQ and its mission.
+Blog: Articles and updates about our projects and AI technologies.
+About/Contact Page: Information about the company and a contact form.
+Videos Page: Educational videos and tutorials.
+Projects Page: Showcase of our projects and case studies.
+## Technologies Used
+React: Frontend library for building user interfaces.
+React Router: Library for routing in React applications.
+AOS: Library for scroll animations.
+CSS: Styling the components.
+JavaScript: Core programming language for functionality.
+## Setup and Installation
+Prerequisites
+Node.js and npm installed on your machine.
+## Installation Steps
+Clone the Repository
+```
+bash
+Copy code
+git clone https://github.com/yourusername/aiq-website.git
+cd aiq-website
+```
+Install Dependencies
+```
+bash
+Copy code
+npm install
+```
+Run the Development Server
+```
+bash
+Copy code
+npm start
+```
+Open Your Browser
 
-### `npm start`
+Open your browser and navigate to http://localhost:3000 to view the website.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Usage
+The website consists of several pages that can be navigated using the menu. Each page provides specific content and functionalities:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Home Page: Provides an introduction to AIQ and highlights key features.
+Blog: Lists blog posts. Click on a post title to view the full content.
+About/Contact Page: Contains information about AIQ and a form for visitors to send messages.
+Videos Page: Displays educational videos.
+Projects Page: Showcases detailed information about AIQ's projects.
+## File Structure
+Here is an overview of the project's file structure:
+```
+aiq-website/
+├── public/
+│   ├── index.html
+│   └── ...
+├── src/
+│   ├── assets/
+│   │   ├── images/
+│   │   └── styles/
+│   │       └── global.css
+│   ├── components/
+│   │   ├── common/
+│   │   │   ├── Header.js
+│   │   │   ├── Footer.js
+│   │   │   └── ...
+│   │   ├── home/
+│   │   │   ├── HomePage.js
+│   │   │   └── HomePage.css
+│   │   ├── blog/
+│   │   │   ├── BlogPage.js
+│   │   │   ├── BlogPage.css
+│   │   │   ├── BlogPost.js
+│   │   │   └── BlogPost.css
+│   │   ├── about/
+│   │   │   ├── AboutPage.js
+│   │   │   ├── AboutPage.css
+│   │   ├── videos/
+│   │   │   ├── VideosPage.js
+│   │   │   ├── VideosPage.css
+│   │   ├── projects/
+│   │   │   ├── ProjectsPage.js
+│   │   │   ├── ProjectsPage.css
+│   ├── data/
+│   │   └── blogs.js
+│   ├── routes/
+│   │   └── root.js
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+```
+## Contributing
+Contributions are welcome! If you have any ideas, suggestions, or bug reports, please open an issue or submit a pull request. Please ensure that your contributions align with the project's goals and coding standards.
 
-### `npm test`
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contact
+For any questions or inquiries, please contact:
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Yassine El Yacoubi
+GitHub: awsm36
