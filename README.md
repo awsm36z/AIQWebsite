@@ -24,20 +24,17 @@ Node.js and npm installed on your machine.
 Clone the Repository
 ```
 bash
-Copy code
 git clone https://github.com/yourusername/aiq-website.git
 cd aiq-website
 ```
 Install Dependencies
 ```
 bash
-Copy code
 npm install
 ```
 Run the Development Server
 ```
 bash
-Copy code
 npm start
 ```
 Open Your Browser
