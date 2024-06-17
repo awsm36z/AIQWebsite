@@ -1,0 +1,30 @@
+/* src/components/projects/ProjectsPage.css */
+.under-construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 4rem;
+    background-color: var(--dark-grey);
+    color: var(--white);
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .under-construction h2 {
+    font-size: 2.5rem;
+    color: var(--neon-green);
+    margin-bottom: 1rem;
+  }
+  
+  .under-construction img {
+    max-width: 200px;
+    margin-bottom: 1rem;
+  }
+  
+  .under-construction p {
+    font-size: 1.5rem;
+    color: var(--light-grey);
+  }
+  
